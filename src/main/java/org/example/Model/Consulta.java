@@ -24,7 +24,7 @@ public class Consulta implements Serializable {
 
     public Consulta() {}
 
-    public Consulta(int id, int pacienteId, LocalDateTime dataHora) {
+    public Consulta(int id, int pacienteId, LocalDateTime dataHora, String status) {
         this.id = id;
         this.pacienteId = pacienteId;
         this.dataHora = dataHora;
